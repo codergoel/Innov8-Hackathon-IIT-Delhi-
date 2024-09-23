@@ -274,7 +274,6 @@ Weights are assigned to each feature based on their positive or negative relatio
   | Feature                      | Weight |
   |------------------------------|--------|
   | opportunity_cost_norm        | +0.4   |
-  | family_military_history_bin  | +0.2   |
   | security_clearance_level_num | +0.3   |
   | has_enemy_connections_bin    | +0.5   |
   | punishment_policy_num        | +0.2   |
@@ -285,6 +284,7 @@ Weights are assigned to each feature based on their positive or negative relatio
 
   | Feature                           | Weight |
   |-----------------------------------|--------|
+  | family_military_history_bin       | -0.2   |
   | morale_score_norm                 | -0.3   |
   | trust_in_leadership_score_norm    | -0.3   |
   | promotion_fairness_score_norm     | -0.2   |
