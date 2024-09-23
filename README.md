@@ -250,16 +250,6 @@ df.loc[missing_mask, 'has_enemy_connections'] = np.nan
 df['has_enemy_connections_bin'] = df['has_enemy_connections'].map({'Yes': 1, 'No': 0}).fillna(0)
 ```
 
-#### Time of Measurement
-
-- **Description**: Indicates when the data was collected.
-- **Values**: 'start of the war' (30%), 'middle of the war' (40%), 'end of the war' (30%).
-
-```python
-df['time_of_measurement'] = np.random.choice(
-    ['start of the war', 'middle of the war', 'end of the war'], size=n, p=[0.3, 0.4, 0.3]
-)
-```
 
 ---
 
@@ -397,7 +387,7 @@ This project provides a comprehensive synthetic dataset that models the complex 
 
 ## Contact
 
-For questions or suggestions, please contact [your.email@example.com](mailto:your.email@example.com).
+For questions or suggestions, please contact [official.tanmay1306@gmail.com](mailto:official.tanmay1306@gmail.com).
 
 ---
 
