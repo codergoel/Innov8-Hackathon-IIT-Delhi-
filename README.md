@@ -1,6 +1,6 @@
 # README for Part 2 solution
 
-## Soldier Defection Risk Synthetic Dataset Generation
+## Soldier Defection Risk Synthetic Dataset Generation (Kindly Navigate to the Part 2 folder)
 
 This repository contains a Python script that generates a synthetic dataset of 10,000 soldiers to model and predict the likelihood of military defection based on various individual and external factors. The dataset is designed to simulate real-world scenarios and is useful for research, analysis, and modeling purposes.
 
